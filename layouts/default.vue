@@ -9,6 +9,9 @@
 import NavBar from '~/components/NavBar.vue'
 
 export default {
+  components: {
+    NavBar
+  },
   head() {
     return {
       titleTemplate: '%s - Real World Events',
@@ -21,9 +24,6 @@ export default {
         }
       ]
     }
-  },
-  components: {
-    NavBar
   }
 }
 </script>
